@@ -53,8 +53,8 @@ function moveSelector(selector) {
     document.querySelector('.js-result').innerHTML = `${compaValue}`;
 
     document.querySelector('.js-result').innerHTML = `you 
-        <img src="/img/${selector}.png" class = "move-buttton">
-        <img src="/img/${emptyValue}.png" class = "move-buttton">
+        <img src="./img/${selector}.png" class = "move-buttton">
+        <img src="./img/${emptyValue}.png" class = "move-buttton">
         computer
     </p>`;
 
